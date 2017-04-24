@@ -26,7 +26,7 @@ Example _server.js_:
 var loopback = require('loopback');
 var boot = require('loopback-boot');
 var rootLogger = bunyan.createLogger({name: 'myloopbackAPI'});
-var logger = require('loopback-component-logger')(rootLogger);
+var logger = require('loopback-bunyan-logger')(rootLogger);
 var app = module.exports = loopback();
 
 ```
@@ -37,7 +37,7 @@ If rootLogger is not provide, the component creates a logger with default
 ```js
 var loopback = require('loopback');
 var boot = require('loopback-boot');
-var logger = require('loopback-component-logger')();
+var logger = require('loopback-bunyan-logger')();
 var app = module.exports = loopback();
 
 ```
@@ -47,7 +47,7 @@ inherit the log level from root.
 
 ```js
 
-var logger = require('loopback-component-logger')('TestModel');
+var logger = require('loopback-bunyan-logger')('TestModel');
 module.exports = function(TestModel) {
     logger.debug('Initializing TestModel');
 };
@@ -61,7 +61,7 @@ To add hooks and log management API to [loopback], add configuration to componen
   "loopback-component-explorer": {
     "mountPath": "/explorer"
   },
-  "loopback-component-logger": {
+  "loopback-bunyan-logger": {
       "enableAPI" : true
   }
 }
@@ -72,7 +72,7 @@ Make sure enableHttpContext is set as true in config.json for to allow collectio
 
 # License
 
-[MIT](./LICENSE).
+[ISC]
 
 # Roadmap
 - Additional Unit Test and Coverage
