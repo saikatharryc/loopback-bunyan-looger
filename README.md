@@ -3,6 +3,9 @@ from
 # loopback-component-logger 
 
 Logging component for [loopback] using [bunyan] logger with additional loopback specific hooks and log management API
+[![NPM](https://nodei.co/npm/loopback-bunyan-logger.png?downloads=true)](https://nodei.co/npm/loopback-bunyan-logger/)
+
+ [![NPM](https://nodei.co/npm-dl/loopback-bunyan-logger.png?months=3&height=3)](https://nodei.co/npm/loopback-bunyan-logger/)
 
 
 [![Build Status](https://travis-ci.org/saikatharryc/loopback-bunyan-looger.svg?branch=master)](https://travis-ci.org/saikatharryc/loopback-bunyan-looger)
