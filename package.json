@@ -1,14 +1,14 @@
 {
-  "name": "loopback-bunyan-logger",
-  "version": "1.0.0",
-  "description": "Updated according to New methods",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "saikatharryc",
-  "license": "ISC",
-  "dependencies": {
+    "name": "loopback-bunyan-looger",
+    "version": "0.0.1",
+    "description": "Logging component for loopback UPDATED",
+    "main": "index.js",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/saikatharryc/loopback-bunyan-looger"
+    },
+    "dependencies": {
         "bunyan": "^1.8.1",
         "debug": "^2.2.0"
     },
@@ -37,4 +37,10 @@
         "lib",
         "README.md"
     ],
+    "contributors": [
+        {
+            "name": "Saikat Chakrabortty",
+            "url": "https://github.com/saikatharryc"
+        }
+    ]
 }
