@@ -1,11 +1,11 @@
-# loopback-bunyan-logger 
+# loopback-bunyan-looger 
 from 
-# loopback-component-logger 
+# loopback-component-looger 
 
-Logging component for [loopback] using [bunyan] logger with additional loopback specific hooks and log management API
-[![NPM](https://nodei.co/npm/loopback-bunyan-logger.png?downloads=true)](https://nodei.co/npm/loopback-bunyan-logger/)
+Logging component for [loopback] using [bunyan] looger with additional loopback specific hooks and log management API
+[![NPM](https://nodei.co/npm/loopback-bunyan-looger.png?downloads=true)](https://nodei.co/npm/loopback-bunyan-looger/)
 
- [![NPM](https://nodei.co/npm-dl/loopback-bunyan-logger.png?months=3&height=3)](https://nodei.co/npm/loopback-bunyan-logger/)
+ [![NPM](https://nodei.co/npm-dl/loopback-bunyan-looger.png?months=3&height=3)](https://nodei.co/npm/loopback-bunyan-looger/)
 
 
 [![Build Status](https://travis-ci.org/saikatharryc/loopback-bunyan-looger.svg?branch=master)](https://travis-ci.org/saikatharryc/loopback-bunyan-looger)
@@ -13,8 +13,8 @@ Logging component for [loopback] using [bunyan] logger with additional loopback 
 
 # Features
 
-- Default logger using [bunyan]
-- Can use of custom bunyan [streams] to create root logger
+- Default looger using [bunyan]
+- Can use of custom bunyan [streams] to create root looger
 - Hook: Basic performance instrumentation for remote execution
 - Hook: Log management API (configurable)
 
@@ -25,31 +25,31 @@ Example _server.js_:
 ```js
 var loopback = require('loopback');
 var boot = require('loopback-boot');
-var rootLogger = bunyan.createLogger({name: 'myloopbackAPI'});
-var logger = require('loopback-bunyan-logger')(rootLogger);
+var rootlooger = bunyan.createlooger({name: 'myloopbackAPI'});
+var looger = require('loopback-bunyan-looger')(rootlooger);
 var app = module.exports = loopback();
 
 ```
 
-If rootLogger is not provide, the component creates a logger with default
+If rootlooger is not provide, the component creates a looger with default
  [bunyan] settings:
 
 ```js
 var loopback = require('loopback');
 var boot = require('loopback-boot');
-var logger = require('loopback-bunyan-logger')();
+var looger = require('loopback-bunyan-looger')();
 var app = module.exports = loopback();
 
 ```
 
-Child loggers can be created for model as shown below. By default child loggers
+Child loogers can be created for model as shown below. By default child loogers
 inherit the log level from root.
 
 ```js
 
-var logger = require('loopback-bunyan-logger')('TestModel');
+var looger = require('loopback-bunyan-looger')('TestModel');
 module.exports = function(TestModel) {
-    logger.debug('Initializing TestModel');
+    looger.debug('Initializing TestModel');
 };
 
 ```
@@ -61,7 +61,7 @@ To add hooks and log management API to [loopback], add configuration to componen
   "loopback-component-explorer": {
     "mountPath": "/explorer"
   },
-  "loopback-bunyan-logger": {
+  "loopback-bunyan-looger": {
       "enableAPI" : true
   }
 }
@@ -69,7 +69,7 @@ To add hooks and log management API to [loopback], add configuration to componen
 ```
 Make sure enableHttpContext is set as true in config.json for to allow collection
  of datasources performance within req/res
-
+If you dont want expand the child nodes please use version @1.1.2
 # License
 
 [ISC]
