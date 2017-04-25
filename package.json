@@ -3,7 +3,7 @@
   "version": "1.1.5",
   "description": "Logging component for loopback UPDATED",
   "main": "index.js",
-  "license": "ISC",
+  "license": "GNU",
   "repository": {
     "type": "git",
     "url": "https://github.com/saikatharryc/loopback-bunyan-looger"
