@@ -5,10 +5,13 @@ node_js:
   - "6"
   - "5"
   - "4"
-  - "0.12"
+
 
 
 before_script:
+  - npm install
   - npm install -g gulp
   - npm install -g bunyan
-script: gulp
+script: 
+  - gulp
+  - node .
