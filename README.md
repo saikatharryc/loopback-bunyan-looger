@@ -1,6 +1,8 @@
 # loopback-bunyan-looger
 updated   {loopback-component-looger}
-
+ 
+ **incase if you dont want the child node logs. please use the version ^1.1.2
+ 
 Logging component for [loopback] using [bunyan] looger with additional loopback specific hooks and log management API
 [![NPM](https://nodei.co/npm/loopback-bunyan-looger.png?downloads=true)](https://nodei.co/npm/loopback-bunyan-looger/)
 
