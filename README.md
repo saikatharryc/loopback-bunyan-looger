@@ -71,7 +71,7 @@ Make sure enableHttpContext is set as true in config.json for to allow collectio
 If you dont want expand the child nodes please use version @1.1.2
 # License
 
-[ISC]
+[GNU](https://github.com/saikatharryc/loopback-bunyan-looger/blob/master/LICENSE)
  
 # Create Issue
   Create issue here [here](https://github.com/saikatharryc/loopback-bunyan-looger/issues)
