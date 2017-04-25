@@ -1,6 +1,5 @@
-# loopback-bunyan-looger 
-from 
-# loopback-component-looger 
+# loopback-bunyan-looger
+updated   {loopback-component-looger}
 
 Logging component for [loopback] using [bunyan] looger with additional loopback specific hooks and log management API
 [![NPM](https://nodei.co/npm/loopback-bunyan-looger.png?downloads=true)](https://nodei.co/npm/loopback-bunyan-looger/)
@@ -73,6 +72,9 @@ If you dont want expand the child nodes please use version @1.1.2
 # License
 
 [ISC]
+ 
+# Create Issue
+  Create issue here [here](https://github.com/saikatharryc/loopback-bunyan-looger/issues)
 
 # Roadmap
 - Additional Unit Test and Coverage
