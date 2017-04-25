@@ -4,7 +4,8 @@ updated   {loopback-component-looger}
  **incase if you dont want the child node logs. please use the version ^1.1.2
  
 Logging component for [loopback] using [bunyan] looger with additional loopback specific hooks and log management API
-[![NPM](https://nodei.co/npm/loopback-bunyan-looger.png?downloads=false)](https://nodei.co/npm/loopback-bunyan-looger/) [![NPM](https://nodei.co/npm-dl/loopback-bunyan-looger.png?months=1&height=2)](https://nodei.co/npm/loopback-bunyan-looger/)
+
+[![NPM](https://nodei.co/npm/loopback-bunyan-looger.png?downloads=true)](https://nodei.co/npm/loopback-bunyan-looger/) [![NPM](https://nodei.co/npm-dl/loopback-bunyan-looger.png?months=1&height=2)](https://nodei.co/npm/loopback-bunyan-looger/)
 
 
 [![Build Status](https://travis-ci.org/saikatharryc/loopback-bunyan-looger.svg?branch=master)](https://travis-ci.org/saikatharryc/loopback-bunyan-looger)
